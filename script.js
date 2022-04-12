@@ -37,8 +37,17 @@ for (let i = 0; i < post.length; i++) {
     <p class="fs-5">${user_post.testo}</p>
 
     <div class="image_container">
-    <img class="me-3" src="${user_post.image}" style="width: 100%">
+    <img class="me-3 mb-5" src="${user_post.image}" style="width: 100%">
     </div>
+
+    <div class="d-flex justify-content-around align-items-start">
+    <button class="border-0 bg-white">
+    <i class="fa-solid fa-thumbs-up fa-xl me-2">
+    </i>Mi piace
+    </button>
+    <p>Piace a <span> tot </span> persone</p>
+    </div>
+    
     </div>
     `
 }
