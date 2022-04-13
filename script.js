@@ -12,27 +12,27 @@ const post = [{
         testo: 'Slap that bass!',
         image: 'https://www.mezzo.tv/ressources/programs/65/1600x1000-91f1a29-4457-P10066696.jpeg',
         avatar: 'https://media.resources.festicket.com/www/artists/33503352_10157034016585190_1810941499722956800_o.jpg',
-        likes: 180,
+        likes: 1890,
         autore: 'Marcus Miller',
         data: '03/21/2022'
     },
     {
         id: 2,
-        testo: 'Slap that bass!',
-        image: 'https://www.mezzo.tv/ressources/programs/65/1600x1000-91f1a29-4457-P10066696.jpeg',
-        avatar: 'https://media.resources.festicket.com/www/artists/33503352_10157034016585190_1810941499722956800_o.jpg',
-        likes: 180,
-        autore: 'Marcus Miller',
-        data: '03/21/2022'
+        testo: 'Great night!',
+        image: 'https://www.rockbywild.it/wp-content/uploads/2019/04/disturbed.jpg',
+        avatar: 'https://i.pinimg.com/736x/d0/a1/80/d0a1800483f2db050b46bc17db40a0da.jpg',
+        likes: 3492,
+        autore: 'Disturbed Band',
+        data: '04/12/2022'
     },
     {
         id: 3,
-        testo: 'Slap that bass!',
-        image: 'https://www.mezzo.tv/ressources/programs/65/1600x1000-91f1a29-4457-P10066696.jpeg',
-        avatar: '',
-        likes: 180,
-        autore: 'Marcus Miller',
-        data: '03/21/2022'
+        testo: 'We are back!!',
+        image: 'https://metalitalia.com/wp-content/uploads/2017/01/ghost-band-2016.jpg',
+        avatar: 'https://artfiles.alphacoders.com/921/92191.jpg',
+        likes: 3260,
+        autore: 'Ghost BC',
+        data: '02/10/2022'
     }
 
 
