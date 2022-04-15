@@ -85,17 +85,22 @@ function addLike(id) {
         click[id].clicked = 1
         click[id].likes = click[id].likes + 1
         document.getElementById('like_' + id).innerHTML = click[id].likes
-        console.log('like')
         id_likes.push(id)
+        console.log('like')
 
     } else {
         document.getElementById('btn_' + id).style.color = 'black'
         click[id].clicked = 0
         click[id].likes = click[id].likes - 1
         document.getElementById('like_' + id).innerHTML = click[id].likes
+        for (let i = 0; i < id_likes.length; i++) {
+            if (id_likes[i] == id) {
+                id_likes.splice(i, 1);
+                console.log('Ho rimosso l\'elemento ' + id);
+            }
+        }
         console.log('unlike')
     }
-
+    console.log(click)
+    console.log(id_likes)
 }
-
-console.log(click)
